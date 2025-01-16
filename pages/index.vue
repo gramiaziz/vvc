@@ -6,14 +6,14 @@ const loading = ref(false)
 </script>
 
 <template>
-  <section id="home">
-  <div class="min-h-screen bg-[#072929] flex items-start justify-center text-white">
+<section id="home">
+  <div class="min-h-screen bg-[#072929] flex items-start justify-center text-white pt-16">
     <div class="text-center mt-12">
-      <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-500 animate-fade-in transition-all duration-500 ease-in-out hover:text-white">
-        Seamless <br />
-        Collaboration <br />
-        for Remote Teams
-      </h1>
+      <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-[#2dffcc] animate-fade-in transition-all duration-500 ease-in-out hover:text-white">
+  Seamless <br />
+  Collaboration <br />
+  for Remote Teams
+</h1>
       <p class="mt-4 text-lg font-medium text-slate-400">
         Empower your remote team with tools that simplify communication and enhance productivity.
       </p>
@@ -23,6 +23,7 @@ const loading = ref(false)
     </div>
   </div>
 </section>
+
 <section id="features" class="py-16 bg-[#f9f9f9]">
   <div class="container mx-auto text-center">
     <h2 class="text-4xl font-extrabold text-[#072929] mb-6">
