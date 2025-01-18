@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 </script>
 <template>
   <div class="flex items-center px-6 py-1 bg-[#072929] shadow-md fixed top-0 left-0 w-full z-50">
-    <div class="logo flex-shrink-0">
+    <div class="logo flex-shrink-0 w-24" >
       <img src="/images/logo.png" alt="Logo" class="w-24 h-auto" />
     </div>
 
@@ -14,7 +14,7 @@ import { Button } from '@/components/ui/button'
       <router-link to="#Testimonials" class="text-stone-300 text-lg">Testimonials</router-link>
     </div>
 
-    <div class="flex gap-4 flex-shrink-0">
+    <div class="flex gap-4 flex-shrink-0 w-24 justify-end" >
       <Button class="rounded-full bg-emerald-500 text-white px-6 py-2 hover:bg-emerald-600 transition duration-300">
         Login
       </Button>
